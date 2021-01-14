@@ -1,0 +1,43 @@
+@font-face {
+    font-family: Nasalization;
+    src: url(/Exercices/Carousel/css/nasalization-rg.ttf);
+}
+
+* {
+    font-family: Nasalization;
+}
+
+a.carousel-control-prev.position-relative,
+a.carousel-control-next.position-relative {
+    background-color: teal;
+}
+
+#thumbcarousel img {
+    width: 100%;
+}
+
+#thumbcarousel img:hover {
+    box-shadow: 5px 5px 5px violet;
+}
+
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 0.75rem;
+    }    
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
