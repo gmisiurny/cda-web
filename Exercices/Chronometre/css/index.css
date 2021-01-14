@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+.container-md,
+body>div>div,
+#content {
+    min-height: 100vh;
+}
+
+body {
+    background-color: rgb(18, 21, 56);
+}
+
+#content {
+    background-color: white;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100px;
+    animation: apparition 1s cubic-bezier(0.49, -0.15, 0.82, 1.65);
+}
+
+#chrono-box {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    top: 25%;
+}
+
+h2 {
+    top: 15%;
+}
+
+#chronoP {
+    top: 30%;
+}
+
+#chronoP~div {
+    top: 50%;
+}
+
+@keyframes apparition {
+    from {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    h2 {
+        font-size: 1rem;
+    }
+
+    #chrono-box {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+    }
+
+    #chronoP~div {
+        top: 75%;
+    }
+}
