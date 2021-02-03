@@ -1,0 +1,93 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />
+	<title>Formation jQuery</title>
+	<!-- Styles et scripts de base -->
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/cours.css" media="screen" />
+</head>
+<body class="sommaire">
+
+<div id="header">
+	<ul id="header-extra">
+		<li><a id="home" title="Revenir au sommaire des travaux pratiques" href="index.htm">Sommaire</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="contenu">
+			<h1>Méthodes .css() et .attr()</h1>
+			<table>
+			<caption>Des comportements différents selon le nombre d'attributs</caption>
+
+			<thead>
+				<tr>
+					<th>Paramètres</th>
+					<th>Méthode .css()</th>
+					<th>Méthode .attr()</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<th>1</th>
+					<td>
+						<pre>$p.css("color")</pre>
+						<p>Retourne la valeur de la propriété css</p>
+					</td>
+					<td>
+						<pre>$p.attr("id")</pre>
+						<p>Retourne la valeur de l'attribut</p>
+
+					</td>
+				</tr>
+				<tr>
+					<th>2</th>
+					<td>
+						<pre>$p.css("display","none")</pre>
+						<p>Modifie la propriété ccs selon une paire de clé/valeur</p>
+					</td>
+					<td>
+
+						<pre>$p.attr("id","p1")</pre>
+						<p>Modifie l'attribut selon une paire de clé/valeur</p>
+					</td>
+				</tr>
+				<tr>
+					<th>Objet jSon</th>
+					<td>
+						
+<pre>$p.css({
+   display:"none",    
+   color:"red"
+})</pre>
+
+
+						<p>Modifie les propriétés ccs avec un objet jSon</p>
+					</td>
+					<td>
+						
+<pre>$a.attr({
+   id:"lien1",
+   href:"sommaire.htm"
+})</pre>
+						<p>Modifie les attributs avec un objet jSon</p>
+					</td>
+
+				</tr>
+			</tbody>
+		</table>
+	</div><!-- fin contenu -->
+	<div id="menu">
+		<h2>Prérequis et récapitulatifs </h2>
+		<ul>
+			<li><a href="recap-css-sel.htm">Quelques sélecteurs CSS</a></li>
+			<li><a href="recap-css-mod.htm">Modifications simples de la css</a></li>
+			<li><a href="recap-attr-css.htm">Méthodes .css() et .attr()</a></li>
+			<li><a href="recap-fn-jquery.htm">Les 3 utilisations de la fonction jQuery()</a></li>
+			<li><a href="recap-each.htm">Quand utiliser la boucle .each() ?</a></li>
+			<li><a href="recap-methodes.htm">Quelques méthodes des objets de jQuery</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

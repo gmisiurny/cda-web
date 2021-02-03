@@ -1,0 +1,16 @@
+html {
+	background:url("img/380.png") -330px 0 repeat-y #fff ;
+}
+div#sommaire  {
+	padding-left:70px;
+	padding-top:10px;
+}
+div#sommaire h1 {
+	padding-bottom:0;
+}
+div#sommaire table {
+	width:700px
+}
+div#sommaire td {
+	text-align:left
+}

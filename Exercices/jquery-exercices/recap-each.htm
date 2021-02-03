@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />
+	<title> Formation jQuery</title>
+	<!-- Styles et scripts de base -->
+	<script type="text/javascript" src="script/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/cours.css" media="screen" />
+</head>
+<body class="sommaire">
+<div id="header">
+	<ul id="header-extra">
+		<li><a id="home" title="Revenir au sommaire des travaux pratiques" href="index.htm">Sommaire</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="contenu">
+	
+<h1>Quand utiliser la boucle .each() ?</h1>
+<p>Quand on crée un élement jQuery avec un sélecteur css, on ne sait jamais de combien de noeuds l'élément est composé.</p>
+<pre>$p = $("p.paragraphe") ;</pre>
+<h2>Pour utiliser le rang des noeuds :</h2>
+<pre>$p.each(function(i){
+	$(this).prepend(i+" : ");
+});</pre>
+<h2>Pour vérifier des conditions complexes ou récupérer des information précises:</h2>
+<pre>var color = [] ;
+$p.each(function(i){
+	var $this = $(this) ;
+	if($this.children("strong").length > 2) { 
+		// ... 
+	}
+	color[i] = $this.color() ;
+});</pre>
+<h2>Pour réaliser des opérations complexes</h2>
+<pre>$p.each(function(i){
+	var $this = $(this) ;
+	$this.html($this.html()+" Je répète : "+$this.html()) ;
+});</pre>
+
+	</div><!-- fin contenu -->
+	<div id="menu">
+		<h2>Prérequis et récapitulatifs </h2>
+		<ul>
+			<li><a href="recap-css-sel.htm">Quelques sélecteurs CSS</a></li>
+			<li><a href="recap-css-mod.htm">Modifications simples de la css</a></li>
+			<li><a href="recap-attr-css.htm">Méthodes .css() et .attr()</a></li>
+			<li><a href="recap-fn-jquery.htm">Les 3 utilisations de la fonction jQuery()</a></li>
+			<li><a href="recap-each.htm">Quand utiliser la boucle .each() ?</a></li>
+			<li><a href="recap-methodes.htm">Quelques méthodes des objets de jQuery</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Regions>
+	<Region regid="01">
+		<Nom>Guadeloupe</Nom>
+		<ChefLieu comid="97105">Basse-Terre</ChefLieu>
+	</Region>
+	<Region regid="02">
+		<Nom>Martinique</Nom>
+		<ChefLieu comid="97209">Fort-de-France</ChefLieu>
+	</Region>
+	<Region regid="03">
+		<Nom>Guyane</Nom>
+		<ChefLieu comid="97302">Cayenne</ChefLieu>
+	</Region>
+	<Region regid="04">
+		<Nom>La Réunion</Nom>
+		<ChefLieu comid="97411">Saint-Denis</ChefLieu>
+	</Region>
+	<Region regid="06">
+		<Nom>Mayotte</Nom>
+		<ChefLieu comid="97608">Dzaoudzi</ChefLieu>
+	</Region>
+	<Region regid="11">
+		<Nom>Île-de-France</Nom>
+		<ChefLieu comid="75056">Paris</ChefLieu>
+	</Region>
+	<Region regid="21">
+		<Nom>Champagne-Ardenne</Nom>
+		<ChefLieu comid="51108">Châlons-en-Champagne</ChefLieu>
+	</Region>
+	<Region regid="22">
+		<Nom>Picardie</Nom>
+		<ChefLieu comid="80021">Amiens</ChefLieu>
+	</Region>
+	<Region regid="23">
+		<Nom>Haute-Normandie</Nom>
+		<ChefLieu comid="76540">Rouen</ChefLieu>
+	</Region>
+	<Region regid="24">
+		<Nom>Centre</Nom>
+		<ChefLieu comid="45234">Orléans</ChefLieu>
+	</Region>
+	<Region regid="25">
+		<Nom>Basse-Normandie</Nom>
+		<ChefLieu comid="14118">Caen</ChefLieu>
+	</Region>
+	<Region regid="26">
+		<Nom>Bourgogne</Nom>
+		<ChefLieu comid="21231">Dijon</ChefLieu>
+	</Region>
+	<Region regid="31">
+		<Nom>Nord-Pas-de-Calais</Nom>
+		<ChefLieu comid="59350">Lille</ChefLieu>
+	</Region>
+	<Region regid="41">
+		<Nom>Lorraine</Nom>
+		<ChefLieu comid="57463">Metz</ChefLieu>
+	</Region>
+	<Region regid="42">
+		<Nom>Alsace</Nom>
+		<ChefLieu comid="67482">Strasbourg</ChefLieu>
+	</Region>
+	<Region regid="43">
+		<Nom>Franche-Comté</Nom>
+		<ChefLieu comid="25056">Besançon</ChefLieu>
+	</Region>
+	<Region regid="52">
+		<Nom>Pays de la Loire</Nom>
+		<ChefLieu comid="44109">Nantes</ChefLieu>
+	</Region>
+	<Region regid="53">
+		<Nom>Bretagne</Nom>
+		<ChefLieu comid="35238">Rennes</ChefLieu>
+	</Region>
+	<Region regid="54">
+		<Nom>Poitou-Charentes</Nom>
+		<ChefLieu comid="86194">Poitiers</ChefLieu>
+	</Region>
+	<Region regid="72">
+		<Nom>Aquitaine</Nom>
+		<ChefLieu comid="33063">Bordeaux</ChefLieu>
+	</Region>
+	<Region regid="73">
+		<Nom>Midi-Pyrénées</Nom>
+		<ChefLieu comid="31555">Toulouse</ChefLieu>
+	</Region>
+	<Region regid="74">
+		<Nom>Limousin</Nom>
+		<ChefLieu comid="87085">Limoges</ChefLieu>
+	</Region>
+	<Region regid="82">
+		<Nom>Rhône-Alpes</Nom>
+		<ChefLieu comid="69123">Lyon</ChefLieu>
+	</Region>
+	<Region regid="83">
+		<Nom>Auvergne</Nom>
+		<ChefLieu comid="63113">Clermont-Ferrand</ChefLieu>
+	</Region>
+	<Region regid="91">
+		<Nom>Languedoc-Roussillon</Nom>
+		<ChefLieu comid="34172">Montpellier</ChefLieu>
+	</Region>
+	<Region regid="93">
+		<Nom>Provence-Alpes-Côte d'Azur</Nom>
+		<ChefLieu comid="13055">Marseille</ChefLieu>
+	</Region>
+	<Region regid="94">
+		<Nom>Corse</Nom>
+		<ChefLieu comid="2A004">Ajaccio</ChefLieu>
+	</Region>
+</Regions>

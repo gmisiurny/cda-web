@@ -1,0 +1,227 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="icon" href="style/img/favicon.ico" />
+		<title>Corrigé - 3 - Parcourir et modifier la DOM</title>
+		<!-- Styles et scripts de base -->
+		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+		<link rel="stylesheet" type="text/css" href="style/tp3.css" media="screen" />
+	</head>
+
+	<body>
+		<div id="header">
+			<ul id="header-breadcrumb">
+				<li>TP&nbsp;3</li>
+			</ul>
+			<ul id="header-extra">
+				<li><a id="eye" title="Voir le javacript" href="script/tp3.js">Source</a></li>
+				<li><a id="precedent" title="TP 2" href="tp2.htm">Précédent</a></li>
+				<li><a id="suivant" title="TP 4" href="tp4.htm">Suivant</a></li>
+			</ul>
+		</div>
+		<div id="conteneur">
+			<div id="demo">
+				<h1>Parcourir et modifier la DOM</h1>
+				<table id="reg74">
+					<caption>Limousin</caption>
+					<thead>
+						<tr>
+							<th id="reg74nom">Nom</th>
+							<th id="reg74t4">Trimestre 4</th>
+							<th id="reg74t3">Trimestre 3</th>
+							<th id="reg74t2">Trimestre 2</th>
+							<th id="reg74t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep23">
+							<td headers="reg74nom">Creuse</td>
+							<td headers="reg74t4" class="provisoire">10,4</td>
+							<td headers="reg74t3">10,5</td>
+							<td headers="reg74t2">10,5</td>
+							<td headers="reg74t1">10,4</td>
+						</tr>
+						<tr id="dep19">
+							<td headers="reg74nom">Corrèze</td>
+							<td headers="reg74t4" class="provisoire">6,7</td>
+							<td headers="reg74t3">6,6</td>
+							<td headers="reg74t2">6,6</td>
+							<td headers="reg74t1">6,7</td>
+						</tr>
+						<tr id="dep87">
+							<td headers="reg74nom">Haute-Vienne</td>
+							<td headers="reg74t4">7,5</td>
+							<td headers="reg74t3"></td>
+							<td headers="reg74t2">7,6</td>
+							<td headers="reg74t1">7,3</td>
+						</tr>
+						<tr class="region-reference" id="reg74ref">
+							<td headers="reg74nom" title="Région de référence">Limousin</td>
+							<td headers="reg74t4">8,1</td>
+							<td headers="reg74t3">8,2</td>
+							<td headers="reg74t2">8</td>
+							<td headers="reg74t1">8,3</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="reg10">
+					<caption>Ile de France</caption>
+					<thead>
+						<tr>
+							<th id="reg10nom">Nom</th>
+							<th id="reg10t4">Trimestre 4</th>
+							<th id="reg10t3">Trimestre 3</th>
+							<th id="reg10t2">Trimestre 2</th>
+							<th id="reg10t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep75">
+							<td headers="reg10nom">Paris</td>
+							<td headers="reg10t4">9</td>
+							<td headers="reg10t3">8,7</td>
+							<td headers="reg10t3" class="provisoire"></td>
+							<td headers="reg10t1">8,6</td>
+						</tr>
+						<tr id="dep77">
+							<td headers="reg10nom">Seine-et-Marne</td>
+							<td headers="reg10t4">7,3</td>
+							<td headers="reg10t3"> </td>
+							<td headers="reg10t2">7,2</td>
+							<td headers="reg10t1">7,3</td>
+						</tr>
+						<tr id="dep93">
+							<td headers="reg10nom">Seine-Saint-Denis</td>
+							<td headers="reg10t4" class="provisoire">11,4</td>
+							<td headers="reg10t3">11,3</td>
+							<td headers="reg10t2">11,3</td>
+							<td headers="reg10t1">11,4</td>
+						</tr>
+						<tr id="dep94">
+							<td headers="reg10nom">Val-de-Marne</td>
+							<td headers="reg10t4" class="provisoire">8,1</td>
+							<td headers="reg10t3">8</td>
+							<td headers="reg10t2">8,2</td>
+							<td headers="reg10t1">7,9</td>
+						</tr>
+						<tr id="dep95">
+							<td headers="reg10nom">Val-d'Oise</td>
+							<td headers="reg10t4">9,1</td>
+							<td headers="reg10t3">8,9</td>
+							<td headers="reg10t2">9</td>
+							<td headers="reg10t1">9</td>
+						</tr>
+						<tr id="dep78">
+							<td headers="reg10nom">Yvelines</td>
+							<td headers="reg10t4">6,7</td>
+							<td headers="reg10t3">6,6</td>
+							<td headers="reg10t2">6,8</td>
+							<td headers="reg10t1">6,5</td>
+						</tr>
+						<tr class="region-reference" id="reg10ref">
+							<td headers="reg10nom" title="Région de référence">Ile de France</td>
+							<td headers="reg10t4">9,9</td>
+							<td headers="reg10t3">9,9</td>
+							<td headers="reg10t2">9,8</td>
+							<td headers="reg10t1">10</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="reg11">
+					<caption>Languedoc Roussillon</caption>
+					<thead>
+						<tr>
+							<th id="reg11nom">Nom</th>
+							<th id="reg11t4">Trimestre 4</th>
+							<th id="reg11t3">Trimestre 3</th>
+							<th id="reg11t2">Trimestre 2</th>
+							<th id="reg11t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep48">
+							<td headers="reg11nom">Lozère</td>
+							<td headers="reg11t4" class="provisoire">4,5</td>
+							<td headers="reg11t3"></td>
+							<td headers="reg11t2">4,4</td>
+							<td headers="reg11t1">4,8</td>
+						</tr>
+						<tr id="dep66">
+							<td headers="reg11nom">Pyrénées-Orientales</td>
+							<td headers="reg11t4">12,9</td>
+							<td headers="reg11t3"> </td>
+							<td headers="reg11t2">13</td>
+							<td headers="reg11t1">13,2</td>
+						</tr>
+						<tr id="dep11">
+							<td headers="reg10nom">Aude</td>
+							<td headers="reg10t4" class="provisoire">12,6</td>
+							<td headers="reg10t3">12,9</td>
+							<td headers="reg10t2">12,7</td>
+							<td headers="reg10t1">12,8</td>
+						</tr>
+						<tr id="dep30">
+							<td headers="reg10nom">Gard</td>
+							<td headers="reg10t4">12,7</td>
+							<td headers="reg10t3">12,8</td>
+							<td headers="reg10t2">12,6</td>
+
+							<td headers="reg10t1">12,9</td>
+						</tr>
+						<tr id="dep34">
+							<td headers="reg10nom">Hérault</td>
+							<td headers="reg10t4">13,3</td>
+							<td headers="reg10t3">13,6</td>
+							<td headers="reg10t2"></td>
+							<td headers="reg10t1">13,7</td>
+						</tr>
+						<tr class="region-reference" id="reg11ref">
+							<td headers="reg11nom" title="Région de référence">Languedoc Roussillon</td>
+							<td headers="reg11t4">9,3</td>
+							<td headers="reg11t3">9,4</td>
+							<td headers="reg11t2">9,2</td>
+							<td headers="reg11t1">9,5</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="ennonce">
+				<h2>Exemple</h2>
+				<p>Numérotation des tableaux.</p>
+				<h2>Instructions</h2>
+				<h3>1</h3>
+				<p>
+					Dans les cellules qui ont la classe <code>provisoire</code>, ajouter le lien suivant&nbsp;:
+				</p>
+				<pre>&lt;a href="#" title="Provisoire"&gt;(p)&lt;/a&gt;</pre>
+				<h3>2</h3>
+				<p>Dans les cellules qui sont vides ou bien <em>ne contiennent que des espaces</em>, écrire
+					&laquo;n.d.&raquo; et ajouter la classe <code>non-defini</code></p>
+				<h3>3</h3>
+				<p>Après le nom des départements qui comprennent des cellules non-définies, ajouter le lien suivant :
+				</p>
+				<pre>&lt;a href=\"#\" title=\"Incomplet\"&gt;(i)&lt;/a&gt;</pre>
+				<h3>4</h3>
+				<p>
+					Dans le corps des tableaux, remplacer la première cellule de chaque ligne par une cellule de type
+					&laquo;titre&raquo;
+					(balise <code>&lt;th&gt;</code> au lieu de <code>&lt;td&gt;</code>).
+				</p>
+				<h3>5</h3>
+				<p class="pour-aller-plus-loin">Pour aller plus loin</p>
+				<p>
+					Trier chacun des tableaux selon l'ordre alphabétique des départements.
+				</p>
+				<h2>Astuce</h2>
+				<p>La fonction <code>$.trim()</code> supprime les espaces superflus</p>
+
+			</div>
+		</div>
+		<!-- Styles et scripts du tp -->
+		<script type="text/javascript" src="script/jquery-latest.js"></script>
+		<script type="text/javascript" src="script/tp3.js"></script>
+	</body>
+
+</html>

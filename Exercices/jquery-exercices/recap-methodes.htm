@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />
+	<title>Formation jQuery</title>
+	<!-- Styles et scripts de base -->
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/cours.css" media="screen" />
+</head>
+<body class="sommaire">
+<div id="header">
+	<ul id="header-extra">
+		<li><a id="home" title="Revenir au sommaire des travaux pratiques" href="index.htm">Sommaire</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="contenu">
+	
+<h1>Quelques méthodes des objets de jQuery</h1>
+<h2>$objet.methode(paramètres)</h2>
+<h3>Des méthodes qui servent modifier le style ou les attributs d'un élément&nbsp;:</h3>
+<pre>$objet.css("color","red") ;</pre>
+<pre>$objet.attr("title","Le titre") ;</pre>
+<pre>$objet.addClass("active") ;</pre>
+<p>Avec moins d'arguments elles servent à récupérer des informations sous forme de chaîne de caractère&nbsp;:</p>
+<pre>var objetColor = $objet.css("color") ;</pre>
+<pre>var objetTitle = $objet.attr("title") ;</pre>
+<h3>Des méthodes qui servent à Parcourir le document à partir d'un élément qu'on a déjà sélectionné&nbsp;: </h3>
+<pre>$lien = $menu.find("a") ;</pre>
+<p>Les paramètres sont des sélecteurs CSS facultatifs</p>
+<h3>Des méthodes qui servent à modifier le document&nbsp;: </h3>
+<pre>$a.append($b)</pre>
+<p>Les paramètres peuvent être des objet jQuery ou du contenu html généré à la volée :</p>
+<pre>$a.prepend("&lt;strong&gt; Attention !&lt;/strong&gt;")</pre>
+<p>Les méthodes .html() et .text() modifient contenu html ou textuel d'un élément :</p>
+<pre>$a.html("&lt;strong&gt; Nouveau contenu !&lt;/strong&gt;")</pre>
+<p>Sans argument, elles renvoient ce contenu :</p>
+<pre>alert($a.html());</pre>
+<h3>Des méthodes pour déclencher une action quand un évèment arrive sur un objet&nbsp;: </h3>
+<pre>$a.click(function({
+	return false ;
+})</pre>
+<p>Ces méthodes admettent des fonctions anonymes comme paramètre. Sans paramètre, elles peuvent déclencher l'évènement :</p>
+<pre>$a.click()</pre>
+<h3>Des méthodes pour faire des animations  </h3>
+<pre>$a.hide(1000,function({
+	alert("le lien à disparu !") ;
+})</pre>
+<p>Les paramètres sont généralement la durée (milisecondes) et une fonction déclenchée lorsque la transition est terminée.</p>				
+<h3>Des méthodes pour échanger des données avec le serveur </h3>
+
+	</div><!-- fin contenu -->
+	<div id="menu">
+		<h2>Prérequis et récapitulatifs </h2>
+		<ul>
+			<li><a href="recap-css-sel.htm">Quelques sélecteurs CSS</a></li>
+			<li><a href="recap-css-mod.htm">Modifications simples de la css</a></li>
+			<li><a href="recap-attr-css.htm">Méthodes .css() et .attr()</a></li>
+			<li><a href="recap-fn-jquery.htm">Les 3 utilisations de la fonction jQuery()</a></li>
+			<li><a href="recap-each.htm">Quand utiliser la boucle .each() ?</a></li>
+			<li><a href="recap-methodes.htm">Quelques méthodes des objets de jQuery</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

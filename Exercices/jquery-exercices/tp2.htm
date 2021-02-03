@@ -1,0 +1,204 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="icon" href="style/img/favicon.ico" />
+		<title>Corrigé - 2 - Attributs, classes, contenus texte et html</title>
+		<!-- Styles et scripts de base -->
+		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	</head>
+
+	<body>
+		<div id="header">
+			<ul id="header-breadcrumb">
+				<li>TP&nbsp;2</li>
+			</ul>
+			<ul id="header-extra">
+				<li><a id="eye" title="Voir le javacript" href="script/tp2.js">Source</a></li>
+				<li><a id="precedent" title="TP 1" href="tp1.htm">Précédent</a></li>
+				<li><a id="suivant" title="TP 3" href="tp3.htm">Suivant</a></li>
+			</ul>
+		</div>
+		<div id="conteneur">
+			<div id="demo">
+				<h1>Attributs, classes, contenus texte et html</h1>
+				<p>Ligne active : <a href="#reg23ref" id="id-ligne-active"><em>reg23ref</em></a></p>
+				<table id="reg2">
+					<caption>Auvergne</caption>
+					<thead>
+						<tr>
+							<th id="reg2nom">Nom</th>
+							<th id="reg2t4">Trimestre 4</th>
+							<th id="reg2t3">Trimestre 3</th>
+							<th id="reg2t2">Trimestre 2</th>
+							<th id="reg2t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep3">
+							<th headers="reg1nom">Allier</th>
+							<td headers="reg1t4">9,4</td>
+							<td headers="reg1t3">9,4</td>
+							<td headers="reg1t2">9,5</td>
+							<td headers="reg1t1">9,3</td>
+						</tr>
+						<tr id="dep15">
+							<th headers="reg2nom">Cantal</th>
+							<td headers="reg2t4" class="provisoire">12,7</td>
+							<td headers="reg2t3">12,7</td>
+							<td headers="reg2t2">12,6</td>
+							<td headers="reg2t1">12,8</td>
+						</tr>
+						<tr id="dep43">
+							<th headers="reg2nom">Haute-Loire</th>
+							<td headers="reg2t4">7,4</td>
+							<td headers="reg2t3">7,4</td>
+							<td headers="reg2t2" title="non significatif">2,5</td>
+							<td headers="reg2t1">7,3</td>
+						</tr>
+						<tr id="dep63">
+							<th headers="reg2nom">Puy-de-Dôme</th>
+							<td headers="reg2t4">8,6</td>
+							<td headers="reg2t3">8,5</td>
+							<td headers="reg2t2">8,5</td>
+							<td headers="reg2t1">8,6</td>
+						</tr>
+						<tr id="reg2ref">
+							<th headers="reg2nom">Auvergne</th>
+							<td headers="reg2t4">8,2</td>
+							<td headers="reg2t3">8,2</td>
+							<td headers="reg2t2">8,1</td>
+							<td headers="reg2t1"></td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="reg23">
+					<caption>Alsace</caption>
+					<thead>
+						<tr>
+							<th id="reg23nom">Nom</th>
+							<th id="reg23t4">Trimestre 4</th>
+							<th id="reg23t3">Trimestre 3</th>
+							<th id="reg23t2">Trimestre 2</th>
+							<th id="reg23t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep67">
+							<th headers="reg23nom">Bas-Rhin</th>
+							<td headers="reg23t4">7,9</td>
+							<td headers="reg23t3">7,8</td>
+							<td headers="reg23t2" title="non significatif">0,2</td>
+							<td headers="reg23t1">7,7</td>
+						</tr>
+						<tr id="dep68">
+							<th headers="reg23nom">Haut-Rhin</th>
+							<td headers="reg10t4" class="provisoire">9,2</td>
+							<td headers="reg23t3">8,7</td>
+							<td headers="reg23t2">9</td>
+							<td headers="reg23t1">8,6</td>
+						</tr>
+						<tr id="reg23ref">
+							<th headers="reg23nom">Alsace</th>
+							<td headers="reg23t4">8,3</td>
+							<td headers="reg23t3">8,1</td>
+							<td headers="reg23t2"></td>
+							<td headers="reg23t1">8,2</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="reg10">
+					<caption>Ile de France</caption>
+					<thead>
+						<tr>
+							<th id="reg10nom">Nom</th>
+							<th id="reg10t4">Trimestre 4</th>
+							<th id="reg10t3">Trimestre 3</th>
+							<th id="reg10t2">Trimestre 2</th>
+							<th id="reg10t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep75">
+							<th headers="reg10nom">Paris</th>
+							<td headers="reg10t4">9</td>
+							<td headers="reg10t3">8,7</td>
+							<td headers="reg10t2">9,1</td>
+							<td headers="reg10t1">8,6</td>
+						</tr>
+						<tr id="dep77">
+							<th headers="reg10nom">Seine-et-Marne</th>
+							<td headers="reg10t4" title="Résultat non significatif">0,1</td>
+							<td headers="reg10t3"></td>
+							<td headers="reg10t2">7,2</td>
+							<td headers="reg10t1">7,3</td>
+						</tr>
+						<tr id="dep93">
+							<th headers="reg10nom">Seine-Saint-Denis</th>
+							<td headers="reg10t4" class="provisoire">11,4</td>
+							<td headers="reg10t3">11,3</td>
+							<td headers="reg10t2">11,3</td>
+							<td headers="reg10t1">11,4</td>
+						</tr>
+						<tr id="dep94">
+							<th headers="reg10nom">Val-de-Marne</th>
+							<td headers="reg10t4" class="provisoire">8,1</td>
+							<td headers="reg10t3">8</td>
+							<td headers="reg10t2">8,2</td>
+							<td headers="reg10t1">7,9</td>
+						</tr>
+						<tr id="dep95">
+							<th headers="reg10nom">Val-d'Oise</th>
+							<td headers="reg10t4">9,1</td>
+							<td headers="reg10t3">8,9</td>
+							<td headers="reg10t2"> </td>
+							<td headers="reg10t1">9</td>
+						</tr>
+						<tr id="dep78">
+							<th headers="reg10nom">Yvelines</th>
+							<td headers="reg10t4">6,7</td>
+							<td headers="reg10t3">6,6</td>
+							<td headers="reg10t2">6,8</td>
+							<td headers="reg10t1">6,5</td>
+						</tr>
+						<tr id="reg10ref">
+							<th headers="reg10nom">Ile de France</th>
+							<td headers="reg10t4">9,9</td>
+							<td headers="reg10t3">9,9</td>
+							<td headers="reg10t2">9,8</td>
+							<td headers="reg10t1">10</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div id="ennonce">
+				<h2>Exemple</h2>
+				<p>Ajouter la classe <code>region-reference</code> sur la dernière ligne de chaque tableau.</p>
+				<h2>Instructions</h2>
+				<h3>1</h3>
+				<p>Mettre un attribut <code>title</code> valant "Provisoire" aux cellules qui ont la classe
+					<code>provisoire</code>.</p>
+				<h3>2</h3>
+				<p>Dans les cellules vides, écrire &laquo; n.d. &raquo; et ajouter la classe <code>non-defini</code>.
+				</p>
+				<h3>3</h3>
+				<p>Mettre la classe <code>non-significatif</code> aux cellules dont l'attribut <code>title</code>
+					contient &laquo;non significatif&raquo;.</p>
+				<h3>4</h3>
+				<p class="pour-aller-plus-loin">Pour aller plus loin</p>
+				<p>Récupérer le contenu texte du lien ayant l'identifiant <code>id-ligne-active</code>.</p>
+				<p>Ce contenu est l'identifiant de la ligne à laquelle vous devez mettre la classe
+					<code>class-ligne-active</code>.</p>
+				<p>A la place du code, mettre le nom de la région active dans le lien ayant l'identifiant
+					<code>id-ligne-active</code>.</p>
+				<h2>Astuce</h2>
+				<p>Le sélecteur <code>:empty</code> capture les noeuds vides.</p>
+			</div>
+		</div>
+		<!-- Styles et scripts du tp -->
+		<script type="text/javascript" src="script/jquery-latest.js"></script>
+		<script type="text/javascript" src="script/tp2.js"></script>
+	</body>
+
+</html>

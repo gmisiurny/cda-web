@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table id="reg72">
+	<caption>Aquitaine</caption>
+	<thead>
+		<tr>
+			<th>Département</th>
+			<th>Code</th>
+			<th>Chef-lieu</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Dordogne</th>
+			<td>24</td>
+			<td>Périgueux (24322)</td>
+		</tr>
+		<tr>
+			<th>Gironde</th>
+			<td>33</td>
+			<td>Bordeaux (33063)</td>
+		</tr>
+		<tr>
+			<th>Landes</th>
+			<td>40</td>
+			<td>Mont-de-Marsan (40192)</td>
+		</tr>
+		<tr>
+			<th>Lot-et-Garonne</th>
+			<td>47</td>
+			<td>Agen (47001)</td>
+		</tr>
+		<tr>
+			<th>Pyrénées-Atlantiques</th>
+			<td>64</td>
+			<td>Pau (64445)</td>
+		</tr>
+	</tbody>
+</table>

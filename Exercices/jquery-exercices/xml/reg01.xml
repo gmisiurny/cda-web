@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table id="reg01">
+	<caption>Guadeloupe</caption>
+	<thead>
+		<tr>
+			<th>Département</th>
+			<th>Code</th>
+			<th>Chef-lieu</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Guadeloupe</th>
+			<td>971</td>
+			<td>Basse-Terre (97105)</td>
+		</tr>
+	</tbody>
+</table>

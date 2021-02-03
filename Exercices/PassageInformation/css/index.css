@@ -1,0 +1,6 @@
+html,
+body,
+.container-fluid,
+.container-fluid >.row {
+    min-height: 100vh;
+}

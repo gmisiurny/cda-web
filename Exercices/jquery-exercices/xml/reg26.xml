@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table id="reg26">
+	<caption>Bourgogne</caption>
+	<thead>
+		<tr>
+			<th>Département</th>
+			<th>Code</th>
+			<th>Chef-lieu</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Côte-d'Or</th>
+			<td>21</td>
+			<td>Dijon (21231)</td>
+		</tr>
+		<tr>
+			<th>Nièvre</th>
+			<td>58</td>
+			<td>Nevers (58194)</td>
+		</tr>
+		<tr>
+			<th>Saône-et-Loire</th>
+			<td>71</td>
+			<td>Mâcon (71270)</td>
+		</tr>
+		<tr>
+			<th>Yonne</th>
+			<td>89</td>
+			<td>Auxerre (89024)</td>
+		</tr>
+	</tbody>
+</table>

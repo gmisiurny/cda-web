@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+select {
+    width: 155px;
+}
+
+input {
+    width: 100px;
+    text-align: center;
+}
+
+body>div {
+    display: flex;
+    width: 100%;
+    border: 1px red solid;
+    justify-content: center;
+}
+
+body>div>div {
+    border: 1px green solid;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#total_ligne {
+    justify-content: flex-end;
+}
+
+#ajoutLigneBtn {
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25px;
+    margin-right: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+#ajoutLigneBtn:hover {
+    border-radius: 8px;
+    background-color: lavender;
+    font-weight: bolder;
+}
+
+#ajoutLigneBtn:active {
+    background-color: rgb(151, 151, 197);
+}
+
+.suppressionLigneBtn {
+    border: 1px green solid;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 25px;
+    margin-right: 25px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.suppressionLigneBtn:hover {
+    border-radius: 8px;
+    background-color: lavender;
+    font-weight: bolder;
+}
+
+.suppressionLigneBtn:active {
+    background-color: rgb(151, 151, 197);
+}

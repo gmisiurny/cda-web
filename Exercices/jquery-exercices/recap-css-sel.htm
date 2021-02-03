@@ -1,0 +1,96 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />
+	<title>Formation jQuery</title>
+	<!-- Styles et scripts de base -->
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/cours.css" media="screen" />
+</head>
+<body class="sommaire">
+<div id="header">
+	<ul id="header-extra">
+		<li><a id="home" title="Revenir au sommaire des travaux pratiques" href="index.htm">Sommaire</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="contenu">
+		<h1>Quelques sélecteurs CSS</h1>
+		<h2>Sélecteurs de la CSS 2</h2>
+		<h3>element </h3>
+		<p>Sélectionne les éléments en fonction de leur nom.</p>
+		<p>Exemple : $("a") sélectionne tous les liens.</p>
+		<h3>#id </h3>
+		<p>Sélectionne un élément en fonction de son attribut id.</p>
+		<p>Exemple : $("a#top") sélectionne le lien ayant l’identifiant top, $("#top") l’élément quelconque ayant l’identifiant top.</p>
+		<h3>* </h3>
+		<p>Sélectionne tous les éléments (inclut les éléments head, body, etc).</p>
+		<h3>.class  </h3>
+		<p>Selectionne les éléments selon leur classe.</p>
+		<h3>Ancetre descendant  (séparés par un espace) </h3>
+		<p>Recherche les descendants désignés par le selecteur "descendant" de l'élément parent désigné par le selecteur "ancetre".</p>
+		<p>Exemple  : $("p * ")  sélectionne les nœuds à l’intérieur d’un paragraphe</p>
+		<h3>Selecteur1, selecteur2, selecteurN </h3>
+		<p>Retourne le résultat de tous les sélecteurs combinés.</p>
+		<p>Exemple : $(" h2 , .titre ") sélectionne les éléments h2 ET les éléments qui ont la classe titre.</p>
+		<h2>Opérateurs CSS2 et 3</h2>
+		<h3>Parent > enfant </h3>
+		<p>Recherche tous les éléments définis par le sélecteur "enfant", fils direct de l'élément parent spécifié par le sélecteur "parent".</p>
+		<h3>Prev ~ siblings</h3> 
+		<p>Cible les éléments frères situés après l'élément ciblé par le sélecteur "prev" (a noter que "prev" cible uniquement un seul élément, a la différence de l'opérateur "+"), et qui répondent au sélecteur "siblings".</p>
+		<h3>Prev+next  </h3>
+		<p>Recherche tous les éléments répondant au sélecteur "next", et qui se trouvent apres les éléments identifiés par le sélecteur "prev".</p>
+		<h2>Pseudo éléments de la CSS3</h2>
+		<h3>:first </h3>
+		<p>Sélectionne le premier élément de la sélection.</p>
+		<h3>:first-child  </h3>
+		<p>Sélectionne les premiers fils des éléments répondant à la recherche.</p>
+		<h3>:last-child  </h3>
+		<p>Sélectionne les derniers fils des éléments répondant a la recherche.</p>
+		<h3>:empty  </h3>
+		<p>Retourne les éléments qui n'ont pas d'éléments enfants (en incluant les noeuds textes).</p>
+		<h3>:contains(texte)  </h3>
+		<p>Recherche les éléments qui contiennent le texte spécifié</p>
+		<h3>:eq(index) </h3>
+		<p>Sélectionne un élément par son index.</p>
+		<h3>:gt(index) , :lt(index)  </h3>
+		<p>Recherche tous les éléments qui ont in index supérieur a celui entré (respectivement qui ont un index inférieur). A noter que le premier élément a pour valeur 0 dans l'index.</p>
+		<h3>:has(selector)  </h3>
+		<p>Retourne les éléments dont au moins un de leur élément fils répond au selecteur "selector".</p>
+		<h3>:not(selector)  </h3>
+		<p>Filtre tous les éléments qui répondent à la sélection.</p>
+		<h3>:nth-child(index/even/odd/equation)  </h3>
+		<p>Recherche tous les éléments qui sont le nieme fils ou un fils pair ou impair de leur parent.</p>
+		<h3>:odd  / :even  </h3>
+		<p>Sélectionnent respectivement les éléments impairs et les éléments pairs (index à partir de 0).</p>
+		<h3>:selected  /  :checked  </h3>
+		<p>Sélectionne tous les éléments qui sont sélectionnés / tous les éléments qui sont cochés.</p>
+		<h2>Sélection selon les attributs</h2>
+		<h3>[attribute=value] </h3>
+		<p>Recherche les éléments pour lesquels l'attribut spécifié vaut la valeur définie.</p>
+		<h3>[attribute!=value]  </h3>
+		<p>Recherche les éléments dont l'attribut spécifié n'est pas égal à la valeur, et les éléments pour lequel l'attribut n'est pas spécifié.</p>
+		<h3>[attribute$=value] / [attribute^=value]  </h3>
+		<p>Recherche les éléments dont l'attribut spécifié n'est pas nulle, et pour lequel la valeur se termine (respectivement commence) par la valeur spécifiée.</p>
+		<h3>[attribute*=value]  </h3>
+		<p>Recherche les éléments dont la valeur de l'attribut spécifié contient entre autre la valeur spécifiée.</p>
+		<h3>[attribut]  </h3>
+		<p>Recherche les éléments pour lequel l'attribut spécifié est renseigné.</p>
+		<h3>[FiltreAttribut1][FiltreAttribut2][FiltreAttributN]  </h3>
+		<p>Recherche les éléments répondant a chacun des filtres renseignés. Ces filtres se combinent.</p>
+	</div><!-- fin contenu -->
+	<div id="menu">
+		<h2>Prérequis et récapitulatifs </h2>
+		<ul>
+			<li><a href="recap-css-sel.htm">Quelques sélecteurs CSS</a></li>
+			<li><a href="recap-css-mod.htm">Modifications simples de la css</a></li>
+			<li><a href="recap-attr-css.htm">Méthodes .css() et .attr()</a></li>
+			<li><a href="recap-fn-jquery.htm">Les 3 utilisations de la fonction jQuery()</a></li>
+			<li><a href="recap-each.htm">Quand utiliser la boucle .each() ?</a></li>
+			<li><a href="recap-methodes.htm">Quelques méthodes des objets de jQuery</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

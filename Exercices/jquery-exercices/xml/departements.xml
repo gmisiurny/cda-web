@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Departements>
+	<Departement depid="01" regid="82">
+		<Nom>Ain</Nom>
+		<ChefLieu comid="01053">Bourg-en-Bresse</ChefLieu>
+	</Departement>
+	<Departement depid="02" regid="22">
+		<Nom>Aisne</Nom>
+		<ChefLieu comid="02408">Laon</ChefLieu>
+	</Departement>
+	<Departement depid="03" regid="83">
+		<Nom>Allier</Nom>
+		<ChefLieu comid="03190">Moulins</ChefLieu>
+	</Departement>
+	<Departement depid="04" regid="93">
+		<Nom>Alpes-de-Haute-Provence</Nom>
+		<ChefLieu comid="04070">Digne</ChefLieu>
+	</Departement>
+	<Departement depid="05" regid="93">
+		<Nom>Hautes-Alpes</Nom>
+		<ChefLieu comid="05061">Gap</ChefLieu>
+	</Departement>
+	<Departement depid="06" regid="93">
+		<Nom>Alpes-Maritimes</Nom>
+		<ChefLieu comid="06088">Nice</ChefLieu>
+	</Departement>
+	<Departement depid="07" regid="82">
+		<Nom>Ardèche</Nom>
+		<ChefLieu comid="07186">Privas</ChefLieu>
+	</Departement>
+	<Departement depid="08" regid="21">
+		<Nom>Ardennes</Nom>
+		<ChefLieu comid="08105">Charleville-Mézières</ChefLieu>
+	</Departement>
+	<Departement depid="09" regid="73">
+		<Nom>Ariège</Nom>
+		<ChefLieu comid="09122">Foix</ChefLieu>
+	</Departement>
+	<Departement depid="10" regid="21">
+		<Nom>Aube</Nom>
+		<ChefLieu comid="010387">Troyes</ChefLieu>
+	</Departement>
+	<Departement depid="11" regid="91">
+		<Nom>Aude</Nom>
+		<ChefLieu comid="11069">Carcassonne</ChefLieu>
+	</Departement>
+	<Departement depid="12" regid="73">
+		<Nom>Aveyron</Nom>
+		<ChefLieu comid="12202">Rodez</ChefLieu>
+	</Departement>
+	<Departement depid="13" regid="93">
+		<Nom>Bouches-du-Rhône</Nom>
+		<ChefLieu comid="13055">Marseille</ChefLieu>
+	</Departement>
+	<Departement depid="14" regid="25">
+		<Nom>Calvados</Nom>
+		<ChefLieu comid="14118">Caen</ChefLieu>
+	</Departement>
+	<Departement depid="15" regid="83">
+		<Nom>Cantal</Nom>
+		<ChefLieu comid="15014">Aurillac</ChefLieu>
+	</Departement>
+	<Departement depid="16" regid="54">
+		<Nom>Charente</Nom>
+		<ChefLieu comid="16015">Angoulême</ChefLieu>
+	</Departement>
+	<Departement depid="17" regid="54">
+		<Nom>Charente-Maritime</Nom>
+		<ChefLieu comid="17300">La Rochelle</ChefLieu>
+	</Departement>
+	<Departement depid="18" regid="24">
+		<Nom>Cher</Nom>
+		<ChefLieu comid="18033">Bourges</ChefLieu>
+	</Departement>
+	<Departement depid="19" regid="74">
+		<Nom>Corrèze</Nom>
+		<ChefLieu comid="19272">Tulle</ChefLieu>
+	</Departement>
+	<Departement depid="2A" regid="94">
+		<Nom>Corse-du-Sud</Nom>
+		<ChefLieu comid="2A004">Ajaccio</ChefLieu>
+	</Departement>
+	<Departement depid="2B" regid="94">
+		<Nom>Haute-Corse</Nom>
+		<ChefLieu comid="2B033">Bastia</ChefLieu>
+	</Departement>
+	<Departement depid="21" regid="26">
+		<Nom>Côte-d'Or</Nom>
+		<ChefLieu comid="21231">Dijon</ChefLieu>
+	</Departement>
+	<Departement depid="22" regid="53">
+		<Nom>Côtes-d'Armor</Nom>
+		<ChefLieu comid="22278">St-Brieuc</ChefLieu>
+	</Departement>
+	<Departement depid="23" regid="74">
+		<Nom>Creuse</Nom>
+		<ChefLieu comid="23096">Guéret</ChefLieu>
+	</Departement>
+	<Departement depid="24" regid="72">
+		<Nom>Dordogne</Nom>
+		<ChefLieu comid="24322">Périgueux</ChefLieu>
+	</Departement>
+	<Departement depid="25" regid="43">
+		<Nom>Doubs</Nom>
+		<ChefLieu comid="25056">Besançon</ChefLieu>
+	</Departement>
+	<Departement depid="26" regid="82">
+		<Nom>Drôme</Nom>
+		<ChefLieu comid="26362">Valence</ChefLieu>
+	</Departement>
+	<Departement depid="27" regid="23">
+		<Nom>Eure</Nom>
+		<ChefLieu comid="27229">Evreux</ChefLieu>
+	</Departement>
+	<Departement depid="28" regid="24">
+		<Nom>Eure-et-Loir</Nom>
+		<ChefLieu comid="28085">Chartres</ChefLieu>
+	</Departement>
+	<Departement depid="29" regid="53">
+		<Nom>Finistère</Nom>
+		<ChefLieu comid="29232">Quimper</ChefLieu>
+	</Departement>
+	<Departement depid="30" regid="91">
+		<Nom>Gard</Nom>
+		<ChefLieu comid="30189">Nîmes</ChefLieu>
+	</Departement>
+	<Departement depid="31" regid="73">
+		<Nom>Haute-Garonne</Nom>
+		<ChefLieu comid="31555">Toulouse</ChefLieu>
+	</Departement>
+	<Departement depid="32" regid="73">
+		<Nom>Gers</Nom>
+		<ChefLieu comid="32013">Auch</ChefLieu>
+	</Departement>
+	<Departement depid="33" regid="72">
+		<Nom>Gironde</Nom>
+		<ChefLieu comid="33063">Bordeaux</ChefLieu>
+	</Departement>
+	<Departement depid="34" regid="91">
+		<Nom>Hérault</Nom>
+		<ChefLieu comid="34172">Montpellier</ChefLieu>
+	</Departement>
+	<Departement depid="35" regid="53">
+		<Nom>Ille-et-Vilaine</Nom>
+		<ChefLieu comid="35238">Rennes</ChefLieu>
+	</Departement>
+	<Departement depid="36" regid="24">
+		<Nom>Indre</Nom>
+		<ChefLieu comid="36044">Châteauroux</ChefLieu>
+	</Departement>
+	<Departement depid="37" regid="24">
+		<Nom>Indre-et-Loire</Nom>
+		<ChefLieu comid="37261">Tours</ChefLieu>
+	</Departement>
+	<Departement depid="38" regid="82">
+		<Nom>Isère</Nom>
+		<ChefLieu comid="38185">Grenoble</ChefLieu>
+	</Departement>
+	<Departement depid="39" regid="43">
+		<Nom>Jura</Nom>
+		<ChefLieu comid="39300">Lons-le-Saunier</ChefLieu>
+	</Departement>
+	<Departement depid="40" regid="72">
+		<Nom>Landes</Nom>
+		<ChefLieu comid="40192">Mont-de-Marsan</ChefLieu>
+	</Departement>
+	<Departement depid="41" regid="24">
+		<Nom>Loir-et-Cher</Nom>
+		<ChefLieu comid="41018">Blois</ChefLieu>
+	</Departement>
+	<Departement depid="42" regid="82">
+		<Nom>Loire</Nom>
+		<ChefLieu comid="42218">Montbrison (1793) puis St-Étienne</ChefLieu>
+	</Departement>
+	<Departement depid="43" regid="83">
+		<Nom>Haute-Loire</Nom>
+		<ChefLieu comid="43157">Le Puy</ChefLieu>
+	</Departement>
+	<Departement depid="44" regid="52">
+		<Nom>Loire-Atlantique</Nom>
+		<ChefLieu comid="44109">Nantes</ChefLieu>
+	</Departement>
+	<Departement depid="45" regid="24">
+		<Nom>Loiret</Nom>
+		<ChefLieu comid="45234">Orléans</ChefLieu>
+	</Departement>
+	<Departement depid="46" regid="73">
+		<Nom>Lot</Nom>
+		<ChefLieu comid="46042">Cahors</ChefLieu>
+	</Departement>
+	<Departement depid="47" regid="72">
+		<Nom>Lot-et-Garonne</Nom>
+		<ChefLieu comid="47001">Agen</ChefLieu>
+	</Departement>
+	<Departement depid="48" regid="91">
+		<Nom>Lozère</Nom>
+		<ChefLieu comid="48095">Mende</ChefLieu>
+	</Departement>
+	<Departement depid="49" regid="52">
+		<Nom>Maine-et-Loire</Nom>
+		<ChefLieu comid="49007">Angers</ChefLieu>
+	</Departement>
+	<Departement depid="50" regid="25">
+		<Nom>Manche</Nom>
+		<ChefLieu comid="50502">St-Lô</ChefLieu>
+	</Departement>
+	<Departement depid="51" regid="21">
+		<Nom>Marne</Nom>
+		<ChefLieu comid="51108">Châlons-sur-Marne</ChefLieu>
+	</Departement>
+	<Departement depid="52" regid="21">
+		<Nom>Haute-Marne</Nom>
+		<ChefLieu comid="52121">Chaumont</ChefLieu>
+	</Departement>
+	<Departement depid="53" regid="52">
+		<Nom>Mayenne</Nom>
+		<ChefLieu comid="53130">Laval</ChefLieu>
+	</Departement>
+	<Departement depid="54" regid="41">
+		<Nom>Meurthe-et-Moselle</Nom>
+		<ChefLieu comid="54395">Nancy</ChefLieu>
+	</Departement>
+	<Departement depid="55" regid="41">
+		<Nom>Meuse</Nom>
+		<ChefLieu comid="55029">Bar-le-Duc</ChefLieu>
+	</Departement>
+	<Departement depid="56" regid="53">
+		<Nom>Morbihan</Nom>
+		<ChefLieu comid="56260">Vannes</ChefLieu>
+	</Departement>
+	<Departement depid="57" regid="41">
+		<Nom>Moselle</Nom>
+		<ChefLieu comid="57463">Metz</ChefLieu>
+	</Departement>
+	<Departement depid="58" regid="26">
+		<Nom>Nièvre</Nom>
+		<ChefLieu comid="58194">Nevers</ChefLieu>
+	</Departement>
+	<Departement depid="59" regid="31">
+		<Nom>Nord</Nom>
+		<ChefLieu comid="59350">Lille</ChefLieu>
+	</Departement>
+	<Departement depid="60" regid="22">
+		<Nom>Oise</Nom>
+		<ChefLieu comid="60057">Beauvais</ChefLieu>
+	</Departement>
+	<Departement depid="61" regid="25">
+		<Nom>Orne</Nom>
+		<ChefLieu comid="61001">Alençon</ChefLieu>
+	</Departement>
+	<Departement depid="62" regid="31">
+		<Nom>Pas-de-Calais</Nom>
+		<ChefLieu comid="62041">Arras</ChefLieu>
+	</Departement>
+	<Departement depid="63" regid="83">
+		<Nom>Puy-de-Dôme</Nom>
+		<ChefLieu comid="63113">Clermont-Ferrand</ChefLieu>
+	</Departement>
+	<Departement depid="64" regid="72">
+		<Nom>Pyrénées-Atlantiques</Nom>
+		<ChefLieu comid="64445">Pau</ChefLieu>
+	</Departement>
+	<Departement depid="65" regid="73">
+		<Nom>Hautes-Pyrénées</Nom>
+		<ChefLieu comid="65440">Tarbes</ChefLieu>
+	</Departement>
+	<Departement depid="66" regid="91">
+		<Nom>Pyrénées-Orientales</Nom>
+		<ChefLieu comid="66136">Perpignan</ChefLieu>
+	</Departement>
+	<Departement depid="67" regid="42">
+		<Nom>Bas-Rhin</Nom>
+		<ChefLieu comid="67482">Strasbourg</ChefLieu>
+	</Departement>
+	<Departement depid="68" regid="42">
+		<Nom>Haut-Rhin</Nom>
+		<ChefLieu comid="68066">Colmar</ChefLieu>
+	</Departement>
+	<Departement depid="69" regid="82">
+		<Nom>Rhône</Nom>
+		<ChefLieu comid="69123">Lyon</ChefLieu>
+	</Departement>
+	<Departement depid="70" regid="43">
+		<Nom>Haute-Saône</Nom>
+		<ChefLieu comid="70550">Vesoul</ChefLieu>
+	</Departement>
+	<Departement depid="71" regid="26">
+		<Nom>Saône-et-Loire</Nom>
+		<ChefLieu comid="71270">Mâcon</ChefLieu>
+	</Departement>
+	<Departement depid="72" regid="52">
+		<Nom>Sarthe</Nom>
+		<ChefLieu comid="72181">Le Mans</ChefLieu>
+	</Departement>
+	<Departement depid="73" regid="82">
+		<Nom>Savoie</Nom>
+		<ChefLieu comid="73065">Chambéry</ChefLieu>
+	</Departement>
+	<Departement depid="74" regid="82">
+		<Nom>Haute-Savoie</Nom>
+		<ChefLieu comid="74010">Annecy</ChefLieu>
+	</Departement>
+	<Departement depid="75" regid="11">
+		<Nom>Paris</Nom>
+		<ChefLieu comid="75056">Paris</ChefLieu>
+	</Departement>
+	<Departement depid="76" regid="23">
+		<Nom>Seine-Maritime</Nom>
+		<ChefLieu comid="76540">Rouen</ChefLieu>
+	</Departement>
+	<Departement depid="77" regid="11">
+		<Nom>Seine-et-Marne</Nom>
+		<ChefLieu comid="77288">Melun</ChefLieu>
+	</Departement>
+	<Departement depid="78" regid="11">
+		<Nom>Yvelines</Nom>
+		<ChefLieu comid="78646">Versailles</ChefLieu>
+	</Departement>
+	<Departement depid="79" regid="54">
+		<Nom>Deux-Sèvres</Nom>
+		<ChefLieu comid="79191">Niort</ChefLieu>
+	</Departement>
+	<Departement depid="80" regid="22">
+		<Nom>Somme</Nom>
+		<ChefLieu comid="80021">Amiens</ChefLieu>
+	</Departement>
+	<Departement depid="81" regid="73">
+		<Nom>Tarn</Nom>
+		<ChefLieu comid="81004">Albi</ChefLieu>
+	</Departement>
+	<Departement depid="82" regid="73">
+		<Nom>Tarn-et-Garonne</Nom>
+		<ChefLieu comid="82121">Montauban</ChefLieu>
+	</Departement>
+	<Departement depid="83" regid="93">
+		<Nom>Var</Nom>
+		<ChefLieu comid="83137">Toulon</ChefLieu>
+	</Departement>
+	<Departement depid="84" regid="93">
+		<Nom>Vaucluse</Nom>
+		<ChefLieu comid="84007">Avignon</ChefLieu>
+	</Departement>
+	<Departement depid="85" regid="52">
+		<Nom>Vendée</Nom>
+		<ChefLieu comid="85191">La Roche-sur-Yon</ChefLieu>
+	</Departement>
+	<Departement depid="86" regid="54">
+		<Nom>Vienne</Nom>
+		<ChefLieu comid="86194">Poitiers</ChefLieu>
+	</Departement>
+	<Departement depid="87" regid="74">
+		<Nom>Haute-Vienne</Nom>
+		<ChefLieu comid="87085">Limoges</ChefLieu>
+	</Departement>
+	<Departement depid="88" regid="41">
+		<Nom>Vosges</Nom>
+		<ChefLieu comid="88160">Épinal</ChefLieu>
+	</Departement>
+	<Departement depid="89" regid="26">
+		<Nom>Yonne</Nom>
+		<ChefLieu comid="89024">Auxerre</ChefLieu>
+	</Departement>
+	<Departement depid="90" regid="43">
+		<Nom>Territoire de Belfort</Nom>
+		<ChefLieu comid="90010">Belfort</ChefLieu>
+	</Departement>
+	<Departement depid="91" regid="11">
+		<Nom>Essonne</Nom>
+		<ChefLieu comid="91228">Evry</ChefLieu>
+	</Departement>
+	<Departement depid="92" regid="11">
+		<Nom>Hauts-de-Seine</Nom>
+		<ChefLieu comid="92050">Nanterre</ChefLieu>
+	</Departement>
+	<Departement depid="93" regid="11">
+		<Nom>Seine-Saint-Denis</Nom>
+		<ChefLieu comid="93008">Bobigny</ChefLieu>
+	</Departement>
+	<Departement depid="94" regid="11">
+		<Nom>Val-de-Marne</Nom>
+		<ChefLieu comid="94028">Créteil</ChefLieu>
+	</Departement>
+	<Departement depid="95" regid="11">
+		<Nom>Val-d'Oise</Nom>
+		<ChefLieu comid="95500">Pontoise</ChefLieu>
+	</Departement>
+	<Departement depid="971" regid="01">
+		<Nom>Guadeloupe</Nom>
+		<ChefLieu comid="97105">Basse-Terre</ChefLieu>
+	</Departement>
+	<Departement depid="972" regid="02">
+		<Nom>Martinique</Nom>
+		<ChefLieu comid="97209">Fort-de-France</ChefLieu>
+	</Departement>
+	<Departement depid="973" regid="03">
+		<Nom>Guyane</Nom>
+		<ChefLieu comid="97302">Cayenne</ChefLieu>
+	</Departement>
+	<Departement depid="974" regid="04">
+		<Nom>La Réunion</Nom>
+		<ChefLieu comid="97411">Saint-Denis</ChefLieu>
+	</Departement>
+	<Departement depid="976" regid="06">
+		<Nom>Mayotte</Nom>
+		<ChefLieu comid="97608">Dzaouzi</ChefLieu>
+	</Departement>
+</Departements>

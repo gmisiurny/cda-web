@@ -1,0 +1,216 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<link rel="icon" href="style/img/favicon.ico" />
+		<title>Corrigé - 4 - Évènements</title>
+		<!-- Styles et scripts de base -->
+		<script type="text/javascript" src="script/jquery-latest.js"></script>
+		<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	</head>
+
+	<body>
+		<div id="header">
+			<ul id="header-breadcrumb">
+				<li>TP&nbsp;4</li>
+			</ul>
+			<ul id="header-extra">
+				<li><a id="eye" title="Voir le javacript" href="script/tp4.js">Source</a></li>
+				<li><a id="precedent" title="TP 3" href="tp3.htm">Précédent</a></li>
+				<li><a id="suivant" title="TP 5" href="tp5.htm">Suivant</a></li>
+			</ul>
+		</div>
+		<div id="conteneur">
+			<div id="demo">
+				<h1>Évènements</h1>
+				<ul class="onglets">
+					<li><a href="#reg15">Nord Pas de Calais</a></li>
+					<li><a href="#reg5">Centre</a></li>
+					<li><a href="#reg21">Lorraine</a></li>
+				</ul>
+				<table id="reg15">
+					<caption>Nord Pas de Calais</caption>
+					<thead>
+						<tr>
+							<th id="reg15nom">Nom</th>
+							<th id="reg15t4">Trimestre 4</th>
+							<th id="reg15t3">Trimestre 3</th>
+							<th id="reg15t2">Trimestre 2</th>
+							<th id="reg15t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep59">
+							<th headers="reg15nom">Nord</th>
+							<td headers="reg15t4">8,1</td>
+							<td headers="reg15t3">7,9</td>
+							<td headers="reg15t2">8,2</td>
+							<td headers="reg15t1">7,8</td>
+						</tr>
+						<tr id="dep62">
+							<th headers="reg15nom">Pas-de-Calais</th>
+							<td headers="reg15t4">12,6</td>
+							<td headers="reg15t3">12,7</td>
+							<td headers="reg15t2">12,7</td>
+							<td headers="reg15t1">12,6</td>
+						</tr>
+						<tr class="region-reference" id="reg15ref">
+							<th headers="reg15nom">Nord Pas de Calais</th>
+							<td headers="reg15t4">8</td>
+							<td headers="reg15t3">7,9</td>
+							<td headers="reg15t2">7,9</td>
+							<td headers="reg15t1">8</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="reg5">
+					<caption>Centre</caption>
+					<thead>
+						<tr>
+							<th id="reg5nom">Nom</th>
+							<th id="reg5t4">Trimestre 4</th>
+							<th id="reg5t3">Trimestre 3</th>
+							<th id="reg5t2">Trimestre 2</th>
+							<th id="reg5t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep18">
+							<th headers="reg5nom">Cher</th>
+							<td headers="reg5t4">9,2</td>
+							<td headers="reg5t3">9,4</td>
+							<td headers="reg5t2">9,3</td>
+							<td headers="reg5t1">9,3</td>
+						</tr>
+						<tr id="dep28">
+							<th headers="reg5nom">Eure-et-Loir</th>
+							<td headers="reg5t4">8,8</td>
+							<td headers="reg5t3">8,8</td>
+							<td headers="reg5t2">8,9</td>
+							<td headers="reg5t1">8,7</td>
+						</tr>
+						<tr id="dep36">
+							<th headers="reg5nom">Indre</th>
+							<td headers="reg5t4">7,8</td>
+							<td headers="reg5t3">7,9</td>
+							<td headers="reg5t2">7,7</td>
+							<td headers="reg5t1">8</td>
+						</tr>
+						<tr id="dep37">
+							<th headers="reg5nom">Indre-et-Loire</th>
+							<td headers="reg5t4">8,2</td>
+							<td headers="reg5t3">8,2</td>
+							<td headers="reg5t2">8,3</td>
+							<td headers="reg5t1">8,1</td>
+						</tr>
+						<tr id="dep41">
+							<th headers="reg5nom">Loir-et-Cher</th>
+							<td headers="reg5t4">7,9</td>
+							<td headers="reg5t3">7,9</td>
+							<td headers="reg5t2">8</td>
+							<td headers="reg5t1">7,8</td>
+						</tr>
+						<tr id="dep45">
+							<th headers="reg5nom">Loiret</th>
+							<td headers="reg5t4">8,6</td>
+							<td headers="reg5t3">8,6</td>
+							<td headers="reg5t2">8,7</td>
+							<td headers="reg5t1">8,5</td>
+						</tr>
+						<tr class="region-reference" id="reg5ref">
+							<th headers="reg5nom">Centre</th>
+							<td headers="reg5t4">9,4</td>
+							<td headers="reg5t3">9,4</td>
+							<td headers="reg5t2">9,3</td>
+							<td headers="reg5t1">9,5</td>
+						</tr>
+					</tbody>
+				</table>
+				<table id="reg21">
+					<caption>Lorraine</caption>
+					<thead>
+						<tr>
+							<th id="reg13nom">Nom</th>
+							<th id="reg13t4">Trimestre 4</th>
+							<th id="reg13t3">Trimestre 3</th>
+							<th id="reg13t2">Trimestre 2</th>
+							<th id="reg13t1">Trimestre 1</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr id="dep54">
+							<th headers="reg13nom">Meurthe-et-Moselle</th>
+							<td headers="reg13t4">9,6</td>
+							<td headers="reg13t3">9,6</td>
+							<td headers="reg13t2">9,5</td>
+							<td headers="reg13t1">9,7</td>
+						</tr>
+						<tr id="dep55">
+							<th headers="reg13nom">Meuse</th>
+							<td headers="reg13t4">10,5</td>
+							<td headers="reg13t3">10,3</td>
+							<td headers="reg13t2">10,6</td>
+							<td headers="reg13t1">10,2</td>
+						</tr>
+						<tr id="dep57">
+							<th headers="reg13nom">Moselle</th>
+							<td headers="reg13t4">9,9</td>
+							<td headers="reg13t3">9,8</td>
+							<td headers="reg13t2">10</td>
+							<td headers="reg13t1">9,7</td>
+						</tr>
+						<tr id="dep88">
+							<th headers="reg13nom">Vosges</th>
+							<td headers="reg13t4">10,3</td>
+							<td headers="reg13t3">10,3</td>
+							<td headers="reg13t2">10,2</td>
+							<td headers="reg13t1">10,4</td>
+						</tr>
+						<tr class="region-reference" id="reg13ref">
+							<th headers="reg13nom">Lorraine</th>
+							<td headers="reg13t4">8,6</td>
+							<td headers="reg13t3">8,7</td>
+							<td headers="reg13t2">8,5</td>
+							<td headers="reg13t1">8,8</td>
+						</tr>
+					</tbody>
+				</table>
+
+
+			</div>
+			<div id="ennonce">
+				<h2>Exemple</h2>
+				<p>Classe "active" sur les items qui sont cliqués dans le menu des onglets</p>
+				<h2>Instructions</h2>
+				<h3>1</h3>
+				<p>
+					Cacher les tableaux.
+				</p>
+				<p> Quand on clique sur un onglet, le tableau lié apparaît.</p>
+				<p> Le cas échéant, les autres tableaux disparaissent.</p>
+				<h3>2</h3>
+				<p>
+					Dans le conteneur <code>div#conteneur</code>, ajouter l'élément
+					<code>&lt;div id="loupe"&gt;&lt;/div&gt;</code>.
+				</p>
+				<p>Masqué par défaut, cet élément apparaît quand on survole une cellule. Il affiche alors le contenu de
+					la cellule.</p>
+				<h3>3</h3>
+				<p class="pour-aller-plus-loin">Pour aller plus loin</p>
+				<p>Quand une cellule est survolée, les cellules de la même ligne et de la même colonne prennent la
+					classe <code>on</code>. La cellule survolée prend la classe <code>active</code>.</p>
+				<h2>Astuce</h2>
+				<p><code>$cible.css("display","none")</code> cache un élément et
+					<code>$cible.css("display","block")</code> le remontre (pour un élément de type bloc).
+				</p>
+				<p>On retrouve les cellules d'une même colonne gr&acirc;ce &agrave; leur attribut <code>headers</code>.
+					En effet, sa valeur est l'identifiant de la tête de la colonne.</p>
+
+			</div>
+		</div>
+		<!-- Styles et scripts du tp -->
+		<script type="text/javascript" src="script/tp4.js"></script>
+	</body>
+
+</html>

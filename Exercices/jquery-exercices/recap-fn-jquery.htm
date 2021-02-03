@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />
+	<title>Formation jQuery</title>
+	<!-- Styles et scripts de base -->
+	<script type="text/javascript" src="script/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="style/cours.css" media="screen" />
+</head>
+<body class="sommaire">
+<div id="header">
+	<ul id="header-extra">
+		<li><a id="home" title="Revenir au sommaire des travaux pratiques" href="index.htm">Sommaire</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="contenu">
+		<h1>Les 3 utilisations de la fonction jQuery()</h1>
+		<h2>$(paramètres)</h2>
+		<h3>Créer un élément jquery en sélectionnant des noeuds dans le document</h3>
+		<pre>$h2 = $("div#conteneur h2") ;</pre>
+		<p>Utilisez ce que vous connaissez en CSS2, plus tout ce que vous pouvez trouver en CSS3</p>
+		<h3>Créer un élément jQuery en écrivant son contenu html à la volée</h3>
+		<pre>$p = $("&lt;p&gt;Un paragraphe&lt;p/&gt;") ;</pre>
+		<p>Pour le moment les noeuds créés de cette façon ne sont pas insérés dans le document</p>
+		<h3>Transformer un objet javascript en objet jQuery</h3>
+		<pre>$noeudCourant = $(this) ;</pre>
+		<p>Par exemple l'intérieur d'une boucle .each()</p>
+	</div><!-- fin contenu -->
+	<div id="menu">
+		<h2>Prérequis et récapitulatifs </h2>
+		<ul>
+			<li><a href="recap-css-sel.htm">Quelques sélecteurs CSS</a></li>
+			<li><a href="recap-css-mod.htm">Modifications simples de la css</a></li>
+			<li><a href="recap-attr-css.htm">Méthodes .css() et .attr()</a></li>
+			<li><a href="recap-fn-jquery.htm">Les 3 utilisations de la fonction jQuery()</a></li>
+			<li><a href="recap-each.htm">Quand utiliser la boucle .each() ?</a></li>
+			<li><a href="recap-methodes.htm">Quelques méthodes des objets de jQuery</a></li>
+		</ul>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<table id="reg43">
+	<caption>Franche-Comté</caption>
+	<thead>
+		<tr>
+			<th>Département</th>
+			<th>Code</th>
+			<th>Chef-lieu</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<th>Doubs</th>
+			<td>25</td>
+			<td>Besançon (25056)</td>
+		</tr>
+		<tr>
+			<th>Jura</th>
+			<td>39</td>
+			<td>Lons-le-Saunier (39300)</td>
+		</tr>
+		<tr>
+			<th>Haute-Saône</th>
+			<td>70</td>
+			<td>Vesoul (70550)</td>
+		</tr>
+		<tr>
+			<th>Territoire de Belfort</th>
+			<td>90</td>
+			<td>Belfort (90010)</td>
+		</tr>
+	</tbody>
+</table>

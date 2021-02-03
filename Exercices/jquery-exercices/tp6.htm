@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />	
+	<title>Corrigé - 6 - Ajax</title>
+	<!-- Styles et scripts de base -->
+	<script type="text/javascript" src="script/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<!-- Styles et scripts du tp -->
+	<script type="text/javascript" src="script/tp6.js"></script>
+</head>
+<body>
+<div id="header">
+	<ul id="header-breadcrumb">
+		<li>TP&nbsp;6</li>
+	</ul>
+	<ul id="header-extra">
+		<li><a id="eye" title="Voir le javacript" href="script/tp6.js">Source</a></li>
+		<li><a id="precedent" title="TP 5" href="tp5.htm">Précédent</a></li>
+		<li><a id="suivant" title="TP 7" href="tp7.htm">Suivant</a></li>
+	</ul>
+</div>
+<div id="conteneur">	 
+	<div id="demo">
+		<h1>Ajax</h1>
+		<p>
+			<select id="regions">
+				<option value="xml/reg01.xml">Guadeloupe</option>
+				<option value="xml/reg26.xml">Bourgogne</option>
+				<option value="xml/reg43.xml">Franche-Comté</option>
+				<option value="xml/reg72.xml">Aquitaine</option>
+				<option value="xml/reg53.xml">Bretagne</option>
+			</select>
+			<input id="valide" type="submit" value="voir les départements"/>
+		</p>
+		<div id="tableau">
+			<pre>Emplacement du tableau : &lt;div id="tableau"&gt;&lt;/div&gt;</pre> 
+		</div>	
+	</div>
+	<div id="ennonce">
+		<h2>Exemple</h2>
+		<p><input id="exemple" value="Cliquez-moi" type="submit"/></p>
+		<h2>Instructions</h2>
+		<h3>1</h3>
+		<p>Affichage du tableau correspondant à l'option sélectionnée quand on clique sur le bouton &laquo;voir les départements&raquo;.</p>
+		<p>Les addresses des fichiers des tableaux sont dans les attributs <code>value</code> des options.</p>
+		<p>Le bouton cliquable se retrouve grâce à l'identifiant <code>valide</code> et la liste de sélection avec l'identifiant <code>regions</code>.</p>
+		<h3>2</h3>
+		<p>Recréer la liste de sélection à partir du fichier <a href="xml/regions.xml">xml/regions.xml</a>. Les options générées à partir du xml auront comme attribut <code>value</code> le code de la région (<code>regid</code>).</p>
+		<h3>3</h3>
+		<p>Charger le fichier <a href="xml/departements.xml">xml/departements.xml</a>. Quand on clique sur le bouton &laquo;voir les départements&raquo;, un tableau est généré avec uniquement les départements de la région sélectionnée.</p>
+	</div>
+</div>
+</body>
+</html>

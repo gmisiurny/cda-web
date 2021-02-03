@@ -1,0 +1,231 @@
+@CHARSET "ISO-8859-1";
+/* Reset CSS
+ * --------------------------------------- */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td {
+    padding: 0;
+    margin: 0;
+}
+a{
+	color:grey;
+	text-decoration:none;
+}
+a:hover {
+	color:black;
+}
+table {
+    border-spacing: 0;    
+}
+fieldset,img {
+    border: 0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+    font-weight: normal;
+    font-style: normal;
+}
+strong{
+	font-weight: bold;
+}
+ol,ul {
+    list-style: none;
+    margin:0;
+    padding:0;
+}
+caption,th {
+    text-align: left;
+
+}
+h1,h2,h3,h4,h5,h6 {
+    font-weight: normal;
+    font-size: 100%;
+    margin:0;
+    padding:0;
+    color:#444;
+}
+q:before,q:after {
+    content:'';
+}
+abbr,acronym { border: 0;
+}
+
+
+/* Custom CSS
+ * --------------------------------------- */
+body.sommaire{
+	font-family: arial,helvetica;
+}
+/*
+	header
+*/
+#header {
+	font-size:16px;
+	background-color:#555;
+	border-bottom:2px solid #222;
+	box-shadow:2px 2px 1px rgba(0, 0, 0, 0.3) inset, 1px 1px 3px rgba(0, 0, 0, 0.3), -2px 0 1px rgba(0, 0, 0, 0.3) inset, 0 -16px 16px rgba(0, 0, 0, 0.2) inset;
+	letter-spacing:1px;
+	line-height:1em;
+	height:32px;
+	margin: 0 ;
+	padding: 0 ;
+	overflow:hidden;
+	position:fixed;	
+	z-index:100; 
+	right:0;
+	top:0;
+	left:0;
+}
+
+#header ul {
+	list-style:none outside none;
+	margin:0;
+	padding:0;
+}
+
+#header ul li {
+	list-style:none;
+	float:left;
+	color:#FFF;
+	text-decoration:none;
+	text-shadow:-1px -1px 0 #222;
+	margin:0;
+	padding:0.5em 0.1em 0.5em 0.7em;
+}
+
+#header ul#header-breadcrumb {
+	float:left;
+}
+
+#header a {
+	color:#FFF;
+	text-decoration:none;
+	text-shadow:-1px -1px 0 #222;
+}
+
+#header a:hover {
+	border:1px solid white;
+	border-radius:0.7em ;
+	padding:0 5px ;
+}
+
+div#nav {
+	height:16px;
+	padding:8px 0;
+}
+
+#header ul#header-extra {
+	float:right;
+	padding-right:1em;
+}
+
+#header ul#header-extra a {
+	display:inline-block;
+	opacity:0.8;
+}
+
+#header ul#header-extra a:hover {
+	opacity:1;
+}
+
+/* 
+	Ne pas appliquer à ie6 
+*/
+#header > ul#header-extra a {
+	width:16px ;
+	height:16px ;
+	text-indent:-5000px ;
+}
+
+/*Menu */
+#menu li{
+	font-family: Lobster, sans-serif;
+}
+#menu li.active a{
+	border:1px solid white;
+	border-radius:0.7em ;
+	padding:0 5px ;
+	background: rgba(255,255,255,0.2) none ;
+}
+
+/*Sections */
+.section{
+	text-align:center;
+	background-color: #fff !important ;
+	background-image: 
+	linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+	linear-gradient(#eee .1em, transparent .1em);
+	background-size: 100% 1.2em;
+}
+.section h2{
+	margin: 30px 0 0 0 ;
+	font-family: Lobster ;
+	font-size: 2em; 
+}
+
+
+/* Blocs  */
+.blocs {  
+	display: -webkit-flex;  
+	display: -ms-flexbox;  
+	display: flex; 
+	-webkit-flex-wrap: wrap;  
+	-ms-flex-wrap: wrap;  
+	flex-wrap: wrap;  
+    justify-content: center;
+}  
+.blocs a{
+	color:black;
+}
+.blocs  > li {  
+	display: -webkit-flex;  
+	display: -ms-flexbox;  
+	display: flex; 
+	width: 20%;  
+	margin: 10px 0.666%;  
+	background: grey;  
+	box-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    opacity: 0.7;
+    -moz-transition: all .5s;
+    transition: all .5s;
+    border-radius: 0.5em ;
+} 
+ 
+.blocs  > li:hover{
+    border-radius: 1.2em ;
+    opacity: 1;
+}  
+.blocs  > li  a:hover {
+	color:#FFF;
+}
+.blocs  > li  a {
+	width:100%;
+	height:100%;
+	margin: 0;
+}  
+.blocs   i {
+	display:block;
+}
+
+/*ToolTip */
+.fp-tooltip {
+	color:#111 !important
+}
+
+/*splash*/
+.decoPositionHaut {
+	left:0%;
+	top:-20%;
+}
+.decoPositionBas {
+	left:-20%;
+	top:0%;
+}
+.deco {
+	background-color:none  !important;
+	z-index:1;
+	position:absolute;
+	height:100%;
+	width:40%;
+	float:right;
+	transform: scale(0.4);
+	overflow:visible;
+}

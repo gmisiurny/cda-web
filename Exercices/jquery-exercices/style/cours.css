@@ -1,0 +1,54 @@
+html {
+	background:url("img/380.png") -100px 0 repeat-y #fff ;
+}
+div#conteneur {
+    color: #333333;
+    font-size: 95%;
+    height: 100%;
+    min-width: 400px;
+    padding: 0 10px 0 300px;
+    position: relative;
+}
+
+div#menu {
+	font-size:1em;
+	position:absolute;
+	left:0;
+	top:0;
+	width:250px;
+	color:#222;
+	padding:0 20px 0 10px;
+}
+
+div#menu ul {
+	padding-left:0;
+	margin-left:5px;
+}
+
+div#menu ul li {
+	padding-left:0;
+	margin-left:10px;
+}
+
+div#contenu {
+	width:500px
+}
+
+#contenu h1 {
+	padding-top:0.7em;
+	margin:0;
+}
+#contenu h3 {
+	color:#bf4131;
+	font-size:1em;
+}
+
+#contenu h2 {
+	font-size:1.1em;
+}
+
+div#contenu table {
+}
+div#contenu td {
+	text-align:left
+}

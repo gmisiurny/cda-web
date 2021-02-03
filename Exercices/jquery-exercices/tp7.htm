@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />	
+	<link rel="icon" href="style/img/favicon.ico" />	
+	<title>Corrigé - 7 - Plugins</title>
+	<!-- Script de base -->	
+	<script type="text/javascript" src="script/jquery-latest.js"></script>
+	
+	<!-- Plugin fancybox :  -->
+	<!-- à compléter -->
+	<!-- Plugin jQuery UI sortable : -->
+	<!-- à compléter -->
+	
+	<!-- Styles et scripts du tp -->
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<script type="text/javascript" src="script/tp7.js"></script>
+</head>
+<body>
+<div id="header">
+	<ul id="header-breadcrumb">
+		<li>TP&nbsp;7</li>
+	</ul>
+	<ul id="header-extra">
+		<li><a id="eye" title="Voir le javacript" href="script/tp7.js">Source</a></li>
+		<li><a id="precedent" title="TP 6" href="tp6.htm">Précédent</a></li>
+		<li><a id="suivant" title="TP 8" href="tp8.htm">Suivant</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="demo">
+		<h1>Plugins</h1>
+		<ul class="liste-images">
+			<li>
+				<a href="photos/1.jpg" data-fancybox="lightbox" title="Une jambe">
+					<img src="photos/1s.jpg" alt="image 1s" />
+				</a>
+			</li>
+			<li>
+				<a href="photos/2.jpg" data-fancybox="lightbox" title="De la boue (et des jambes)">
+					<img src="photos/2s.jpg" alt="image 2s" />
+
+				</a>
+			</li>
+			<li>
+				<a href="photos/3.jpg" data-fancybox="lightbox" title="Stade Charlety">
+					<img src="photos/3s.jpg" alt="image 3s" />
+				</a>
+			</li>
+			<li>
+				<a href="photos/4.jpg" data-fancybox="lightbox" title="Des jambes">
+					<img src="photos/4s.jpg" alt="image 4s" />
+				</a>
+			</li>
+		</ul>
+	</div>
+	<div id="ennonce">
+		<h2>Instructions</h2>
+		<h3>1</h3>
+		<p>Télécharger et appeler le <a href="http://fancyapps.com/fancybox/3/">plugin fancybox</a> pour l'utiliser sur cette page.</p>
+		<p>Lors de l'appel de la fonction, modifier la configuration pour avoir les paramètres suivants :</p>
+		<ul>
+			<li>passer la vitesse d'ouverture à 0,01s</li>
+			<li>enlever la possibilité de fermer l'image au clic en dehors de l'image</li>
+			<li>empêcher le clic droit sur l'image</li>
+		</ul>
+		
+		<h3>2</h3>
+		<p class="pour-aller-plus-loin">Pour aller plus loin</p>
+		<p>Rendez-vous la page du <a href="http://jqueryui.com/demos/sortable/">module Sortable de jQuery UI</a>. Télécharger les fichiers nécessaires et mettre en oeuvre la méthode <code>.sortable()</code> pour permettre de trier la liste des vignettes.</p>
+		
+		<h3>3</h3>
+		<p class="pour-aller-plus-loin">Pour aller encore plus loin</p>
+		<p>Ajouter un formatage pour montrer que les images peuvent être déplacées.</p>
+		<p>Et dès qu'une vignette change de place, ajouter les paramètres suivants :</p>
+		<ul>
+			<li>ralentir la vitesse d'ouverture des images à 1 seconde</li>
+			<li>enlever la possibilité de passer les images en boucle</li>
+		</ul>
+
+	</div>
+</div>
+</body>
+</html>

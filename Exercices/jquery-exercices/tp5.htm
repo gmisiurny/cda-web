@@ -1,0 +1,275 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<link rel="icon" href="style/img/favicon.ico" />
+	<title>Corrigé - 5 - Animations</title>
+	<!-- Styles et scripts de base -->
+	<script type="text/javascript" src="script/jquery-latest.js"></script>
+	<link rel="stylesheet" type="text/css" href="style/style.css" media="screen" />
+	<!-- Styles et scripts du tp -->
+	<script type="text/javascript" src="script/tp5.js"></script>
+</head>
+<body>
+<div id="header">
+	<ul id="header-breadcrumb">
+		<li>TP&nbsp;5</li>
+	</ul>
+	<ul id="header-extra">
+		<li><a id="eye" title="Voir le javacript" href="script/tp5.js">Source</a></li>
+		<li><a id="precedent" title="TP 4" href="tp4.htm">Précédent</a></li>
+		<li><a id="suivant" title="TP 6" href="tp6.htm">Suivant</a></li>
+	</ul>
+</div>
+<div id="conteneur">
+	<div id="demo">
+	<h1>Animations</h1>
+	<div class="menu-deroulant">
+		<a href="#" class="menu-tete">Afficher le menu déroulant</a>
+		<ul>
+			<li><a href="#reg15">Nord Pas de Calais</a></li>
+			<li><a href="#reg5">Centre</a></li>
+			<li><a href="#reg21">Provence Alpes Côte d'azur</a></li>
+			<li><a href="#reg13">Lorraine</a></li>
+		</ul>
+	</div>
+	<table id="reg15">
+		<caption>Nord Pas de Calais</caption>
+		<thead>
+			<tr>
+				<th id="reg15nom">Nom</th>
+				<th id="reg15t4">Trimestre 4</th>
+				<th id="reg15t3">Trimestre 3</th>
+				<th id="reg15t2">Trimestre 2</th>
+				<th id="reg15t1">Trimestre 1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="dep59">
+				<th headers="reg15nom">Nord</th>
+				<td headers="reg15t4">8,1</td>
+				<td headers="reg15t3">7,9</td>
+				<td headers="reg15t2">8,2</td>
+				<td headers="reg15t1">7,8</td>
+			</tr>
+			<tr id="dep62">
+				<th headers="reg15nom">Pas-de-Calais</th>
+				<td headers="reg15t4">12,6</td>
+				<td headers="reg15t3">12,7</td>
+				<td headers="reg15t2">12,7</td>
+				<td headers="reg15t1">12,6</td>
+			</tr>
+			<tr class="region-reference" id="reg15ref">
+				<th headers="reg15nom">Nord Pas de Calais</th>
+				<td headers="reg15t4">8</td>
+				<td headers="reg15t3">7,9</td>
+				<td headers="reg15t2">7,9</td>
+				<td headers="reg15t1">8</td>
+			</tr>
+		</tbody>
+	</table>
+	<table id="reg5">
+		<caption>Centre</caption>
+		<thead>
+			<tr>
+				<th id="reg5nom">Nom</th>
+				<th id="reg5t4">Trimestre 4</th>
+				<th id="reg5t3">Trimestre 3</th>
+				<th id="reg5t2">Trimestre 2</th>
+				<th id="reg5t1">Trimestre 1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="dep18">
+				<th headers="reg5nom">Cher</th>
+				<td headers="reg5t4">9,2</td>
+				<td headers="reg5t3">9,4</td>
+				<td headers="reg5t2">9,3</td>
+				<td headers="reg5t1">9,3</td>
+			</tr>
+			<tr id="dep28">
+				<th headers="reg5nom">Eure-et-Loir</th>
+				<td headers="reg5t4">8,8</td>
+				<td headers="reg5t3">8,8</td>
+				<td headers="reg5t2">8,9</td>
+				<td headers="reg5t1">8,7</td>
+			</tr>
+			<tr id="dep36">
+				<th headers="reg5nom">Indre</th>
+				<td headers="reg5t4">7,8</td>
+				<td headers="reg5t3">7,9</td>
+				<td headers="reg5t2">7,7</td>
+				<td headers="reg5t1">8</td>
+			</tr>
+			<tr id="dep37">
+				<th headers="reg5nom">Indre-et-Loire</th>
+				<td headers="reg5t4">8,2</td>
+				<td headers="reg5t3">8,2</td>
+				<td headers="reg5t2">8,3</td>
+				<td headers="reg5t1">8,1</td>
+			</tr>
+			<tr id="dep41">
+				<th headers="reg5nom">Loir-et-Cher</th>
+				<td headers="reg5t4">7,9</td>
+				<td headers="reg5t3">7,9</td>
+				<td headers="reg5t2">8</td>
+				<td headers="reg5t1">7,8</td>
+			</tr>
+			<tr id="dep45">
+				<th headers="reg5nom">Loiret</th>
+				<td headers="reg5t4">8,6</td>
+				<td headers="reg5t3">8,6</td>
+				<td headers="reg5t2">8,7</td>
+				<td headers="reg5t1">8,5</td>
+			</tr>
+			<tr class="region-reference" id="reg5ref">
+				<th headers="reg5nom">Centre</th>
+				<td headers="reg5t4">9,4</td>
+				<td headers="reg5t3">9,4</td>
+				<td headers="reg5t2">9,3</td>
+				<td headers="reg5t1">9,5</td>
+			</tr>
+		</tbody>
+	</table>
+	<table id="reg21">
+		<caption>Provence Alpes Côte d'azur</caption>
+		<thead>
+			<tr>
+				<th id="reg21nom">Nom</th>
+				<th id="reg21t4">Trimestre 4</th>
+				<th id="reg21t3">Trimestre 3</th>
+				<th id="reg21t2">Trimestre 2</th>
+				<th id="reg21t1">Trimestre 1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="dep4">
+				<th headers="reg21nom">Alpes-de-Haute-Provence</th>
+				<td headers="reg21t4">6,8</td>
+				<td headers="reg21t3">6,7</td>
+				<td headers="reg21t2">6,9</td>
+				<td headers="reg21t1">6,6</td>
+			</tr>
+			<tr id="dep5">
+				<th headers="reg21nom">Hautes-Alpes</th>
+				<td headers="reg21t4">9,6</td>
+				<td headers="reg21t3">9,5</td>
+				<td headers="reg21t2">9,7</td>
+				<td headers="reg21t1">9,4</td>
+			</tr>
+			<tr id="dep6">
+				<th headers="reg21nom">Alpes-Maritimes</th>
+				<td headers="reg21t4">10,1</td>
+				<td headers="reg21t3">10,2</td>
+				<td headers="reg21t2">10,2</td>
+				<td headers="reg21t1">10,1</td>
+			</tr>
+			<tr id="dep13">
+				<th headers="reg21nom">Bouches-du-Rhône</th>
+				<td headers="reg21t4">7,6</td>
+				<td headers="reg21t3">7,3</td>
+				<td headers="reg21t2">7,7</td>
+				<td headers="reg21t1">7,2</td>
+			</tr>
+			<tr id="dep83">
+				<th headers="reg21nom">Var</th>
+				<td headers="reg21t4">10,9</td>
+				<td headers="reg21t3">11,2</td>
+				<td headers="reg21t2">11</td>
+				<td headers="reg21t1">11,1</td>
+			</tr>
+			<tr id="dep84">
+				<th headers="reg21nom">Vaucluse</th>
+				<td headers="reg21t4">11,4</td>
+				<td headers="reg21t3">11,6</td>
+				<td headers="reg21t2">11,5</td>
+				<td headers="reg21t1">11,5</td>
+			</tr>
+			<tr class="region-reference" id="reg21ref">
+				<th headers="reg21nom">Provence Alpes Côte d'azur</th>
+				<td headers="reg21t4">8,4</td>
+				<td headers="reg21t3">8,3</td>
+				<td headers="reg21t2">8,3</td>
+				<td headers="reg21t1">8,4</td>
+			</tr>
+		</tbody>
+	</table>
+	<table id="reg13">
+		<caption>Lorraine</caption>
+		<thead>
+			<tr>
+				<th id="reg13nom">Nom</th>
+				<th id="reg13t4">Trimestre 4</th>
+				<th id="reg13t3">Trimestre 3</th>
+				<th id="reg13t2">Trimestre 2</th>
+				<th id="reg13t1">Trimestre 1</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr id="dep54">
+				<th headers="reg13nom">Meurthe-et-Moselle</th>
+				<td headers="reg13t4">9,6</td>
+				<td headers="reg13t3">9,6</td>
+				<td headers="reg13t2">9,5</td>
+				<td headers="reg13t1">9,7</td>
+			</tr>
+			<tr id="dep55">
+				<th headers="reg13nom">Meuse</th>
+				<td headers="reg13t4">10,5</td>
+				<td headers="reg13t3">10,3</td>
+				<td headers="reg13t2">10,6</td>
+				<td headers="reg13t1">10,2</td>
+			</tr>
+			<tr id="dep57">
+				<th headers="reg13nom">Moselle</th>
+				<td headers="reg13t4">9,9</td>
+				<td headers="reg13t3">9,8</td>
+				<td headers="reg13t2">10</td>
+				<td headers="reg13t1">9,7</td>
+			</tr>
+			<tr id="dep88">
+				<th headers="reg13nom">Vosges</th>
+				<td headers="reg13t4">10,3</td>
+				<td headers="reg13t3">10,3</td>
+				<td headers="reg13t2">10,2</td>
+				<td headers="reg13t1">10,4</td>
+			</tr>
+			<tr class="region-reference" id="reg13ref">
+				<th headers="reg13nom">Lorraine</th>
+				<td headers="reg13t4">8,6</td>
+				<td headers="reg13t3">8,7</td>
+				<td headers="reg13t2">8,5</td>
+				<td headers="reg13t1">8,8</td>
+			</tr>
+		</tbody>
+	</table>
+
+
+	</div>
+	<div id="ennonce">
+		<h2>Exemple</h2>
+		<p><a id="cliquer-exemple" href="#">Cliquez-moi</a></p>
+		<h2>Instructions</h2>
+		<div id="instructions">
+			<h3>1</h3>
+			<p>
+				Masquer les items du menu déroulant.
+			</p>
+			<p>Le menu se déplie vers le bas quand on clique sur le lien de classe <code>menu-tete</code>. Il se replie vers le haut quand on clique à nouveau le lien, et ainsi de suite.</p>
+			<h3>2</h3>
+			<p>Cacher les tableaux.</p>
+			<p> Quand on clique sur un lien du menu déroulant, le tableau lié apparaît avec un effet de votre choix.</p>
+			<p> Le cas échéant, les autres tableaux disparaissent.</p>
+			<h3>3</h3>
+			<p>Créer un effet quand on survole les items du menu déroulant  (par exemple, modifier la propriété <code>padding-left</code> du style des liens).</p>
+			<h3>4</h3>
+			<p>Désactiver les animations, déclencher l'évènement <code>click</code> sur le premier item du menu des onglets. Réactiver les animations.</p>
+		</div>
+	</div>
+
+
+
+
+</div>
+</body>
+</html>
